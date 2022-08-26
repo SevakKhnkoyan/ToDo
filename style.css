@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 360px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.checkbox-styling {
+    cursor: pointer;
+}
+
+.paragraph-styling {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
